@@ -1,8 +1,9 @@
 # Nikita Ivanov
-### TG: [@gerpot ] (https://t.me/gerpot)
-### Discord: [Hukuta02] (https://discordapp.com/users/382939522083848202)
+### TG: [@gerpot](https://t.me/gerpot)
+### Discord: [Hukuta02](https://discordapp.com/users/382939522083848202)
 ## About
-Bornplace: Vitebsk, Belarus  
+Bornplace: Vitebsk, Belarus   
+
 Age: 19
 
 ![](https://github.com/Hukuta02/Hukuta02/blob/main/selfie.jpg?raw=true)
