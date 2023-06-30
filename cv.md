@@ -14,7 +14,7 @@ I am *PSU* student now. Studying geodesy and want to try something new. Want to 
 ## Skills
 
 English level: __B1__
-
+![EFSET test](image.png)
 __Computer literacy__
 
 ## Education
