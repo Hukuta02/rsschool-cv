@@ -13,8 +13,10 @@ I am *PSU* student now. Studying geodesy and want to try something new. Want to 
 
 ## Skills
 
-English level: [__C2__](https://www.efset.org/cert/Pt2fAF) by EFSET.org
+English level: [__C2__](https://www.efset.org/cert/Pt2fAF) by [EFSET.org](https://www.efset.org/)
+
 ![Certificate](image-1.png)
+
 __Computer literacy__
 
 ## Education
