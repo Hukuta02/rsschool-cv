@@ -13,16 +13,16 @@ I am *PSU* student now. Studying geodesy and want to try something new. Want to 
 
 ## Skills
 
-English level: __B1__
-![EFSET test](image.png)
+English level: [__C2__](https://www.efset.org/cert/Pt2fAF) by EFSET.org
+![Certificate](image-1.png)
 __Computer literacy__
 
 ## Education
 
-__Graduated: *Gymnasium #2, Vitebsk*__
+__Graduated: *high school degree, Gymnasium №2, Vitebsk*__
 
-__Studying: *Polotsk State University, Novopolotsk*__
+__Studying: *Geodesy, Polotsk State University, Novopolotsk*__
 
 ## Language
 
-__English, Russian, *minor Belarussian*;__
+__English, Russian, *minor* Belarussian;__
