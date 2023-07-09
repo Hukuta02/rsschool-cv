@@ -172,7 +172,7 @@ header {
 /*Footer*/
 
 .footer{
-    width: 100%;
+    width: auto;
     background-color: rgb(43, 42, 42);
     padding: 20px 40px;
     color: white;
