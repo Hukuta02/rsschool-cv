@@ -18,11 +18,13 @@ font-family: 'Poppins', sans-serif;
 .page-body {
     min-height: 100%;
     margin: 0 auto;
+    padding: 0;
 }
 
 .container {
+    height: 100%;
     display: grid;
-    grid-template-columns: 1fr 1.5fr;
+    grid-template-columns: 1fr 2fr;
 }
 
 .section_title{
@@ -73,7 +75,7 @@ header {
     width: 100%;
     color: azure;
     margin: 0;
-    padding: 5px 0px 0px 0px;
+    padding: 0;
     background-color:darkslateblue;
 }
 
@@ -86,7 +88,6 @@ header {
 
 .selfie {
     width: 100%
-    object-fit: cover;
 }
 
 /*Contacts*/
@@ -121,6 +122,7 @@ header {
 /*Right bar*/
 
 .right_side{
+    width: 100%;
     color: black;
 }
 
@@ -129,7 +131,17 @@ header {
     color: black;
 }
 
+/*About*/
+
+.about p{
+    margin: 0px 50px;
+}
+
 /*Skills*/
+
+.skills_list{
+    margin: 0px 30px;
+}
 
 .skills a{
     color:purple;
@@ -146,12 +158,14 @@ header {
 /*Code*/
 
 .code span{
+    margin: 0 50px;
     color: red;
 }
 
 /*Projects*/
 
 .projects span{
+    margin: 0 50px;
     color: red;
 }
 
