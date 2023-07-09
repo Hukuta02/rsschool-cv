@@ -1,0 +1,27 @@
+p {
+    color: lightcyan;
+    font-size: 15;
+    border: 2px solid white;
+}
+
+body {
+    background-color: violet;
+    color: lightcyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px dashed white;
+    padding: 20px;
+    margin: 30px;
+}
+
+img {
+    width: 240px; 
+    height: 320px ;
+}
+
+a {
+    color: purple;
+}
+
+a:hover{
+    color: red;
+}
