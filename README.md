@@ -1,4 +1,4 @@
-# rsschool-cv
-online rs school 
 
-CV: https://hukuta02.github.io/rsschool-cv/cv
+markdown: https://Hukuta02.github.io/rsschool-cv/cv
+
+site: https://Hukuta02.github.io/rsschool-cv/
