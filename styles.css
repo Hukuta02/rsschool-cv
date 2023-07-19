@@ -1,0 +1,43 @@
+/* Global */
+
+html {
+    max-width: 100%;
+}
+
+.page-body {
+    min-height: 100%;
+    margin: 0;
+}
+
+/* Header */
+
+.main-header {
+    width: 1440px;
+    height: 90px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    color: #fff;
+    background-color: #0c0c0e;
+}
+
+.header-h{
+    font-size: 30px;
+    margin: 20px;
+}
+
+.header-nav {
+    height: 50px;
+    width: 900px;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+}
