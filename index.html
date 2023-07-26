@@ -15,33 +15,67 @@
 <body class="page-body">
     <header class="main-header">
         <div>
-            <h2 class="header-h">Brooklyn Public Library</h2>
+            <h1 class="header-h">Brooklyn Public Library</h1>
         </div>
         <div>
             <nav class="header-nav">
                 <ul class="nav-list">
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Favorites</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Favorites">Favorites</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Coffee shop</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Library Card</a</li>
                 </ul>
-                <a  href="#"><img class="icon-link" class="nav-icon" src="assets/icons/icon_profile.svg" alt="icon_profile"></a>
+                <a class="icon-link" href="#"><img  class="nav-icon" src="assets/icons/icon_profile.svg" alt="icon_profile"></a>
             </nav>
         </div>
     </header>
 
-    <div class="welcome"> 
+    <main>
+
+    <section class="welcome"> 
         <div class="welcome-bg">
-            <h1 class="welcome-text">
+            <span class="welcome-text">
                 Welcome<br> to the Brooklyn<br> Library
-            </h1>
+            </span>
         </div>
-    </div>
+    </section>
 
-    <div class="About">
+    <section class="About">
+        <h2 id="About" class="section-h">About</h2>
+        <div class="underline"></div>
+        <span class="section-caption">The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside</span>
+        <div class="about-slider">
+            <img src="./assets/images/slider1.jpg" alt="slider_image" class="about-slider-image">
+            <img src="./assets/images/slider2.jpg" alt="slider_image" class="about-slider-image">
+            <img src="./assets/images/slider3.jpg" alt="slider_image" class="about-slider-image">
+        </div>
+        <div class="slider-buttons">
+            <a href="#" class="slider-btn"></a>
+            <a href="#" class="slider-btn"></a>
+            <a href="#" class="slider-btn"></a>
+        </div>
+    </section>
 
-    </div>
+    <section class="Favorites">
+        <h2 id="Favorites" class="section-h">Favorites</h2>
+        <div class="underline"></div>
+        <span class="favorites-text">Pick favorites of season</span>
+        <ul class="favorites-list">
+            <li class="favorites-list-item">Winter</li>
+            <li class="favorites-list-item">Spring</li>
+            <li class="favorites-list-item">Summer</li>
+            <li class="favorites-list-item">Autumn</li>
+        </ul>
+        <div class="favorites-content">
+            <div class="favorites-bg"></div>
+            <div class="favorites-bg"></div>
+            <div class="favorites-bg"></div>
+            <div class="favorites-bg"></div>
+        </div>        
+    </section>
+
+    </main>
 
     <footer class="footer">
         <div class="upper-footer">
