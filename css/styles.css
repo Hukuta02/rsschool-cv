@@ -96,6 +96,9 @@ html {
     font-style: normal;
     font-weight: 400;
     line-height: 40px; /* 200% */
+    width: 1400px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .section-h {
@@ -111,6 +114,8 @@ html {
     margin: 0 auto;
     margin-bottom: 40px;
 }
+
+/* Welcome */
 
 .welcome {
     background-image: url(..//assets/background/welcome.jpg);
@@ -146,17 +151,23 @@ html {
     text-transform: uppercase;
 }
 
+/* About */
+
 .About {
     color: #000;
     text-align: center;
 }
 
 .about-slider {
-    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+    justify-content: space-between;
 }
 
 .about-slider-image {
-    margin-right: 25px;
+    height: 560px;
+    width: 450px;
 }
 
 .about-slider-image:last-child {
@@ -184,6 +195,8 @@ html {
     border-color: #BB945F;
 }
 
+/* Favorites */
+
 .favorites-text {
     font-family: Inter;
     font-size: 20px;
@@ -208,11 +221,316 @@ html {
     margin-right: 60px;
 }
 
-.favorites-bg {
+.favorites-card {
     border: 1px solid #0C0C0E;
     height: 555px;
     width: 550px;
     margin-bottom: 40px;
+}
+
+.favorites-card-header {
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 15px 0px 20px 20px;
+
+    border-bottom: #BB945F;
+    
+}
+
+.favorites-card-title {
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 266.667% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0px 0px 20px 20px;
+}
+
+.favorites-card-description {
+    width: 355px;
+
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 266.667% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+
+    margin: 0px 0px 15px 20px;
+}
+
+.favorites-card-img {
+    width: 200px;
+    height: 300px;
+    
+    position: relative;
+    right: -390px;
+    top: -255px;
+}
+
+/* Coffee Shop */
+
+.Coffee_Shop-menu {
+    margin: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-header {
+    color: #BB945F;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize; 
+}
+
+.Coffee_Tea-menu{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.CT-menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.menu-item-text{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+
+    min-width: 196px;
+}
+
+.menu-line {
+    width: 100px;
+    height: 1px;
+    background: #BB945F;
+}
+
+.menu-item-price {
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.Desserts-menu {
+    display: flex;
+    width: 482px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 40px;
+}
+
+.D-menu-item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 60px;
+    text-align:end;
+}
+
+/* Contacts */
+
+.contacts-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 201px;
+    margin: 0px 20px 60px 20px;
+}
+
+.contacts-info-text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contacts-info-map{
+    width: 696px;
+    height: 414px;  
+}
+
+.contacts-info-text-item-s {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.contacts-info-text-item-s:first-child {
+    margin-bottom: 40px;
+}
+
+.contacts-info-text-item {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+/* Digital Library Cards */
+
+.library-cards{
+    margin: 0px 20px 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.find-card-title{
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-bottom: 30px;
+}
+
+.find-card-text {
+    color: #000;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
+    margin: 20px 0px 20px 20px;
+}
+
+.white-bg {
+    width: 600px;
+    height: 386px;
+    flex-shrink: 0;
+    border: 3px solid #BB945F;
+    background: #FFF;   
+}
+
+.gold-bg {
+    background: #BB945F;
+    width: 560px;
+    height: 272px;
+    flex-shrink: 0;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.find-card-input {
+    margin-bottom: 25px;
+    width: 520px;
+    height: 66px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border: none;
+    background: #FFF
+}
+
+.find-card-input::placeholder {
+    color: #8E8E8E;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
+}
+
+.find-card-btn {
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+
+    display: inline-flex;
+    padding: 10px 40px;
+    align-items: flex-end;
+
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+
+    background-color: #FFF;
+
+    justify-content: center;
+}
+
+.get-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.get-card-title {
+    color: #000;
+    text-align: center;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.get-card-text {
+    width: 456px;
+    color: #000;
+    text-align: right;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
 }
 
 /* Footer */
