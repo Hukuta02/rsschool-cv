@@ -1,0 +1,200 @@
+/*
+font-family: 'Poppins', sans-serif;
+*/
+
+/*Global*/
+
+.page {
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.page-body {
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.section_title{
+    color: black;
+    padding: 5px 0px 5px 20px;
+    background-color:#c9afe2;
+}
+
+/*Header*/
+
+header {
+    width: 100%;
+    height: 15%;
+    padding-bottom: 5px;
+    background-color:#c9afe2;
+}
+
+.burger {
+    display: none;
+}
+
+.nav_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav a{
+    color: black;
+    line-height: 30px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    color: red;
+    text-decoration: underline;
+}
+
+/*Left bar*/
+
+.left-side{
+    width: 100%;
+    color: azure;
+    margin: 0;
+    padding: 0;
+    background-color:darkslateblue;
+}
+
+.figure-left-side{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: min-content;
+}
+
+.selfie {
+    width: 100%
+}
+
+/*Contacts*/
+
+.contacts{
+    padding: 5px 0px;
+}
+
+
+.contacts_list{
+    list-style: none;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.contacts_icon{
+    height: 20px;
+}
+
+/*Education*/
+
+.education{
+    padding: 5px 0px;
+}
+
+.education_list{
+    list-style: none;
+    margin: 0;
+    padding-left: 20px;
+}
+
+/*Right bar*/
+
+.right_side{
+    width: 100%;
+    color: black;
+}
+
+.page_title {
+    margin: 100px 60px;
+    color: black;
+}
+
+/*About*/
+
+.about p{
+    margin: 0px 50px;
+}
+
+/*Skills*/
+
+.skills_list{
+    margin: 0px 30px;
+}
+
+.skills a{
+    color:purple;
+    font-weight: 600;
+
+}
+
+.skills a:hover{
+    color:red;
+    background-color: wheat;
+    border-radius: 5px;
+}
+
+/*Code*/
+
+.code span{
+    margin: 0 50px;
+    color: red;
+}
+
+/*Projects*/
+
+.projects span{
+    margin: 0 50px;
+    color: red;
+}
+
+/*Footer*/
+
+.footer{
+    width: auto;
+    background-color: rgb(43, 42, 42);
+    padding: 20px 40px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white
+}
+
+.footer a:hover{
+    color: violet;
+}
+
+.footer_icon{
+    height: 20px;
+}
+
+.footer_rsschool{
+    height: 44px;
+}
