@@ -1,0 +1,1 @@
+console.log("Вёрстка валидная +5//warning section\nВёрстка семантическая +16//all done\nВёрстка соответствует макету +40//fav - buttons doesn't work, librarycard - buttons doesn't work\nОбщие требования к верстке +20");

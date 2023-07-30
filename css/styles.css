@@ -8,6 +8,11 @@ p,h1,h2,h3,h4 {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 h2 {
     color: #0C0C0E;
     font-family: Forum;
@@ -75,6 +80,7 @@ html {
     line-height: 50px;
     text-decoration: none;
     color: #fff;
+    cursor: pointer;
 }
 
 .nav-link:hover {
@@ -292,6 +298,10 @@ html {
 
     border-radius: 2px;
     border: 1px solid #0C0C0E;
+}
+
+.fav-card-btn:hover{
+    background: #BB945F;
 }
 
 .fav-card-btn-l {
@@ -724,4 +734,8 @@ html {
     line-height: 20px; /* 100% */
     letter-spacing: 2px;
     margin: 0;
+}
+
+.foo-link {
+    color: white;
 }
