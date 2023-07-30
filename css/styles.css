@@ -78,8 +78,7 @@ html {
 }
 
 .nav-link:hover {
-    color: fuchsia;
-    text-decoration: underline;
+    opacity: 0.5;
     transition: 1s;
 }
 
@@ -211,6 +210,17 @@ html {
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
+    list-style: none;
+    align-items: center;
+}
+
+.favorites-list-item{
+    display: flex;
+    align-items: center;
+}
+
+.fav-li-text {
+    margin-left: 20px;
 }
 
 .favorites-content {
@@ -222,6 +232,7 @@ html {
 }
 
 .favorites-card {
+    position: relative;
     border: 1px solid #0C0C0E;
     height: 555px;
     width: 550px;
@@ -237,10 +248,74 @@ html {
     line-height: 40px; /* 200% */
     letter-spacing: 2px;
     text-transform: capitalize;
-    margin: 15px 0px 20px 20px;
+    margin: 15px 0px 0px 20px;
 
     border-bottom: #BB945F;
     
+}
+
+.fav-underline {
+    margin-left: 20px;
+    height: 1px;
+    width: 61px;
+    background-color: #BB945F;
+
+    margin-bottom: 20px;
+}
+
+.fav-card-btn-cont{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.fav-card-btn {
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    padding: 9px 0px;
+
+    height: 30px;
+    width: 75px;
+
+    background: none;
+
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+}
+
+.fav-card-btn-l {
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+
+    color: #BB945F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    padding: 9px 0px;
+
+    height: 30px;
+    width: 75px;
+
+    background: none;
+
+    border-radius: 2px;
+    border: 1px solid #BB945F;
 }
 
 .favorites-card-title {
@@ -267,16 +342,24 @@ html {
     letter-spacing: 2px;
     text-transform: capitalize;
 
-    margin: 0px 0px 15px 20px;
+    margin-left: 20px;
+}
+
+.fav-card-img {
+    position: absolute;
+
+    bottom: 0;
 }
 
 .favorites-card-img {
     width: 200px;
     height: 300px;
-    
+
     position: relative;
-    right: -390px;
-    top: -255px;
+
+    bottom: -5px;
+    right: -380px;
+    
 }
 
 /* Coffee Shop */
@@ -419,6 +502,7 @@ html {
     margin: 0px 20px 40px 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .find-card-title{
@@ -430,6 +514,7 @@ html {
     line-height: normal;
     letter-spacing: 0.6px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .find-card-text {
@@ -449,9 +534,11 @@ html {
     flex-shrink: 0;
     border: 3px solid #BB945F;
     background: #FFF;   
+    text-align: center;
 }
 
 .gold-bg {
+    text-align: start;
     background: #BB945F;
     width: 560px;
     height: 272px;
@@ -519,6 +606,7 @@ html {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.6px;
+    margin-bottom: 35px;
 }
 
 .get-card-text {
@@ -531,6 +619,36 @@ html {
     font-weight: 400;
     line-height: 40px; /* 200% */
     letter-spacing: 0.4px;
+    margin-bottom: 35px;
+}
+
+.get-card-btns {
+    
+}
+
+.get-card-btn {
+    color: #0C0C0E;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+
+    display: inline-flex;
+    padding: 10px 0px;
+    justify-content: center;
+
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+
+    width: 75px;
+
+    background: none;
+}
+
+.get-card-btn:last-child {
+    margin-left: 20px;
 }
 
 /* Footer */
